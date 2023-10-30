@@ -9,7 +9,7 @@ Import *template_component_plugin_com_rodrigomesquita_dashboard_cards.sql.sql* f
 2. Choose *Dashboard Cards [Plugin]* as an template component type
 
 ## Sample Query ##
-
+```
 SELECT 1 id_pk,
         'Members' as title,
         '985' as card_value,
@@ -54,7 +54,7 @@ union
        'fa-shopping-cart' as card_icon,
        '#ffffff' as font_color
  FROM DUAL 
-
+```
  ![Preview](configuration.jpg)
 
 ## Preview ##
