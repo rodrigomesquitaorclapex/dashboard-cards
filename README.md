@@ -55,10 +55,10 @@ union
        '#ffffff' as font_color
  FROM DUAL 
 ```
- ![Preview](configuration.jpg)
+ ![Preview](assets/configuration.jpg)
 
 ## Preview ##
-![Preview](plugin_preview.jpg)
+![Preview](assets/plugin_preview.jpg)
 
 ## Demo ##
 https://bit.ly/dashboard-cards
