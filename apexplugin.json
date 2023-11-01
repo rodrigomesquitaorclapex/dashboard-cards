@@ -2,7 +2,7 @@
   "name" : "Dashboard Cards",
   "version" : "1.0",
   "description" : "Create nice cards with this template component plugin.",
-  "keywords" : ["APEX", "TEMPLATE_COMPONENT", "DATEPICKER"],
+  "keywords" : ["APEX", "TEMPLATE_COMPONENT", "CARDS"],
   "homepage" : "https://github.com/rodrigomesquitaorclapex/dashboard-cards",
   "bugs" : {
     "url" : "https://github.com/rodrigomesquitaorclapex/dashboard-cards/issues",
