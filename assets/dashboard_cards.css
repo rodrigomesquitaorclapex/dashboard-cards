@@ -1,0 +1,79 @@
+ 
+ .dc-card-container {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.dc-card-container > span{
+    flex: 1;
+    padding: 10px;
+    min-width: 250px;
+}
+
+.dc-icon {
+    position: absolute;
+    bottom: 30%;
+    right: 4%;
+}
+
+.dc-icon > span {
+    font-weight: bold;
+    filter: brightness(0.8);
+}
+ 
+ .dc-card-container:before, .dc-card-container:after {
+	 content: " ";
+	 display: table;
+}
+.dc-card {
+    padding: 10px;
+    position: relative;
+    color: black;
+    border-color: var(--a-cv-state-border-color,var(--a-cv-type-border-color,var(--a-cv-border-color)));
+    border-radius: 5px;
+    border-style: solid;
+    border-width: var(--a-cv-border-width,1px);
+    box-shadow: var(--a-cv-state-shadow,var(--a-cv-type-shadow,var(--a-cv-shadow,none)));
+}
+ .dc-footer {
+    border-top: 1px solid;
+    border-color: var(--a-cv-state-border-color,var(--a-cv-type-border-color,var(--a-cv-border-color)));
+    min-height: 22px;
+ }
+
+ .dc-card .dc-footer {
+	 font-size: 10px;
+	 margin-top: 25px;
+	 padding: 10px 10px 0;
+	 text-transform: uppercase;
+     font-weight: bold;
+}
+ .dc-card .dc-title {
+	 display: inline-block;
+	 font-size: 12px;
+	 padding: 10px 10px 0;
+	 text-transform: uppercase;
+}
+ .dc-card .dc-body {
+	 font-size: 28px;
+	 padding: 0 10px;
+     
+}
+
+.dc-userActions {
+    right: 12px;
+    position: absolute;
+    bottom: 5px;
+}
+
+a.rw-Button {
+    color: inherit;
+}
+
+span.rw-Button-text {
+    font-size: 12px;
+    text-transform: uppercase;
+    vertical-align: text-top;
+}
